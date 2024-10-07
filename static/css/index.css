@@ -1,0 +1,233 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+/* .teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+} */
+
+.teaser .hero-body {
+  display: flex;                 /* Enables flexbox */
+  flex-direction: column;        /* Align elements vertically */
+  justify-content: center;       /* Centers vertically */
+  align-items: center;           /* Centers horizontally */
+  padding-top: 0;
+  padding-bottom: 1rem;
+  text-align: center;            /* Centers the text below the image */
+}
+
+/* .teaser {
+  font-family: 'Google Sans', sans-serif;
+} */
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+  display: flex;
+  justify-content: center;      /* Centers horizontally within parent */
+  align-items: center;          /* Centers vertically within parent */
+  min-height: 50vh;             /* Adjust to ensure enough space for centering */
+  margin-bottom: 0;
+}
+
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+
+.interpolation-panel {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.interpolation-panel .interpolation-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.interpolation-video-column {
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+#interpolation-image-wrapper {
+  width: 100%;
+}
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
+
+
+#teaser-image {
+  max-width: 100%;        /* Ensure it doesn’t overflow horizontally */
+  height: auto;           /* Maintain aspect ratio */
+  margin: 0 auto;         /* Center the image horizontally if it’s inline */
+}
+
+
+.hero + .section {
+  margin-top: -7rem; /* Reduce the gap between teaser and the following section */
+}
+
+.section {
+  padding-top: 1rem; /* Reduce the top padding */
+  margin-top: 1rem;  /* Reduce the top margin of the section */
+}
+
+
+
+.illustrative-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#illustrative-image {
+  width: 100%;           /* Fills the entire width of the container */
+  height: auto;          /* Maintains aspect ratio */
+}
+
+
+#illustrative-video {
+  width: 100%;  /* Makes the video fill the entire width of its container */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners to the video */
+}
+
+.columns {
+  margin-top: 1.5rem; /* Space between different sets of columns */
+}
+
+video {
+  width: 100%;  /* Make each video fill its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners for visual appeal */
+}
+
+.column.is-one-fifth {
+  padding: 10px;  /* Space around each column for better layout */
+}
+
+.has-text-centered {
+  text-align: center; /* Center-aligns text labels under each video */
+}
